@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E428EE831DEF0F3E006F34CF /* NMRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = EC36F96615CD0BF8009A1A04 /* NMRangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E428EE841DEF0F45006F34CF /* NMRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36F96715CD0BF8009A1A04 /* NMRangeSlider.m */; };
 		E46281DA1DEDBFED0017D663 /* RangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = E46281D81DEDBFED0017D663 /* RangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E46281DD1DEDBFED0017D663 /* RangeSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46281D61DEDBFED0017D663 /* RangeSlider.framework */; };
 		E46281DE1DEDBFED0017D663 /* RangeSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E46281D61DEDBFED0017D663 /* RangeSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -324,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E46281DA1DEDBFED0017D663 /* RangeSlider.h in Headers */,
+				E428EE831DEF0F3E006F34CF /* NMRangeSlider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E428EE841DEF0F45006F34CF /* NMRangeSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,6 +691,7 @@
 				E46281E01DEDBFED0017D663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC36F92C15CD0B96009A1A04 /* Build configuration list for PBXProject "NMRangeSlider" */ = {
 			isa = XCConfigurationList;
