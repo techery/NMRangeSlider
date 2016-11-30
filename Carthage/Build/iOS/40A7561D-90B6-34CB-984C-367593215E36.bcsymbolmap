@@ -1,0 +1,156 @@
+BCSymbolMap Version: 2.0
+___DeviceSystemMajorVersion_block_invoke
+-[NMRangeSlider initWithFrame:]
+-[NMRangeSlider initWithCoder:]
+-[NMRangeSlider configureView]
+-[NMRangeSlider dealloc]
+-[NMRangeSlider observeValueForKeyPath:ofObject:change:context:]
+-[NMRangeSlider setLowerValue:]
+-[NMRangeSlider setUpperValue:]
+-[NMRangeSlider setLowerValue:upperValue:animated:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___51-[NMRangeSlider setLowerValue:upperValue:animated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___51-[NMRangeSlider setLowerValue:upperValue:animated:]_block_invoke.46
+___copy_helper_block_.49
+___destroy_helper_block_.50
+___51-[NMRangeSlider setLowerValue:upperValue:animated:]_block_invoke.52
+-[NMRangeSlider setLowerValue:animated:]
+-[NMRangeSlider setUpperValue:animated:]
+-[NMRangeSlider setLowerHandleHidden:]
+-[NMRangeSlider setUpperHandleHidden:]
+-[NMRangeSlider imageFromBundle:]
+-[NMRangeSlider trackBackgroundImage]
+-[NMRangeSlider trackImage]
+-[NMRangeSlider trackCrossedOverImage]
+-[NMRangeSlider lowerHandleImageNormal]
+-[NMRangeSlider lowerHandleImageHighlighted]
+-[NMRangeSlider upperHandleImageNormal]
+-[NMRangeSlider upperHandleImageHighlighted]
+-[NMRangeSlider lowerValueForCenterX:]
+-[NMRangeSlider upperValueForCenterX:]
+-[NMRangeSlider trackAlignmentInsets]
+-[NMRangeSlider trackRect]
+-[NMRangeSlider trackImageForCurrentValues]
+-[NMRangeSlider trackBackgroundRect]
+-[NMRangeSlider thumbRectForValue:image:]
+-[NMRangeSlider addSubviews]
+-[NMRangeSlider layoutSubviews]
+-[NMRangeSlider intrinsicContentSize]
+-[NMRangeSlider beginTrackingWithTouch:withEvent:]
+-[NMRangeSlider continueTrackingWithTouch:withEvent:]
+-[NMRangeSlider endTrackingWithTouch:withEvent:]
+-[NMRangeSlider minimumValue]
+-[NMRangeSlider setMinimumValue:]
+-[NMRangeSlider maximumValue]
+-[NMRangeSlider setMaximumValue:]
+-[NMRangeSlider minimumRange]
+-[NMRangeSlider setMinimumRange:]
+-[NMRangeSlider stepValue]
+-[NMRangeSlider setStepValue:]
+-[NMRangeSlider stepValueContinuously]
+-[NMRangeSlider setStepValueContinuously:]
+-[NMRangeSlider continuous]
+-[NMRangeSlider setContinuous:]
+-[NMRangeSlider lowerValue]
+-[NMRangeSlider upperValue]
+-[NMRangeSlider lowerCenter]
+-[NMRangeSlider setLowerCenter:]
+-[NMRangeSlider upperCenter]
+-[NMRangeSlider setUpperCenter:]
+-[NMRangeSlider lowerMaximumValue]
+-[NMRangeSlider setLowerMaximumValue:]
+-[NMRangeSlider upperMinimumValue]
+-[NMRangeSlider setUpperMinimumValue:]
+-[NMRangeSlider lowerTouchEdgeInsets]
+-[NMRangeSlider setLowerTouchEdgeInsets:]
+-[NMRangeSlider upperTouchEdgeInsets]
+-[NMRangeSlider setUpperTouchEdgeInsets:]
+-[NMRangeSlider lowerHandleHidden]
+-[NMRangeSlider upperHandleHidden]
+-[NMRangeSlider lowerHandleHiddenWidth]
+-[NMRangeSlider setLowerHandleHiddenWidth:]
+-[NMRangeSlider upperHandleHiddenWidth]
+-[NMRangeSlider setUpperHandleHiddenWidth:]
+-[NMRangeSlider setLowerHandleImageNormal:]
+-[NMRangeSlider setLowerHandleImageHighlighted:]
+-[NMRangeSlider setUpperHandleImageNormal:]
+-[NMRangeSlider setUpperHandleImageHighlighted:]
+-[NMRangeSlider setTrackImage:]
+-[NMRangeSlider setTrackCrossedOverImage:]
+-[NMRangeSlider setTrackBackgroundImage:]
+-[NMRangeSlider lowerHandle]
+-[NMRangeSlider setLowerHandle:]
+-[NMRangeSlider upperHandle]
+-[NMRangeSlider setUpperHandle:]
+-[NMRangeSlider track]
+-[NMRangeSlider setTrack:]
+-[NMRangeSlider trackBackground]
+-[NMRangeSlider setTrackBackground:]
+-[NMRangeSlider .cxx_destruct]
+_DeviceSystemMajorVersion._deviceSystemMajorVersion
+_DeviceSystemMajorVersion.onceToken
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_NMRangeSlider._minimumValue
+_OBJC_IVAR_$_NMRangeSlider._maximumValue
+_OBJC_IVAR_$_NMRangeSlider._minimumRange
+_OBJC_IVAR_$_NMRangeSlider._stepValue
+_OBJC_IVAR_$_NMRangeSlider._stepValueInternal
+_OBJC_IVAR_$_NMRangeSlider._continuous
+_OBJC_IVAR_$_NMRangeSlider._lowerValue
+_OBJC_IVAR_$_NMRangeSlider._upperValue
+_OBJC_IVAR_$_NMRangeSlider._lowerMaximumValue
+_OBJC_IVAR_$_NMRangeSlider._upperMinimumValue
+_OBJC_IVAR_$_NMRangeSlider._upperHandleHidden
+_OBJC_IVAR_$_NMRangeSlider._lowerHandleHidden
+_OBJC_IVAR_$_NMRangeSlider._lowerHandleHiddenWidth
+_OBJC_IVAR_$_NMRangeSlider._upperHandleHiddenWidth
+_OBJC_IVAR_$_NMRangeSlider._lowerTouchEdgeInsets
+_OBJC_IVAR_$_NMRangeSlider._upperTouchEdgeInsets
+___block_descriptor_tmp.44
+___block_descriptor_tmp.51
+___block_descriptor_tmp.54
+___block_literal_global.55
+_OBJC_IVAR_$_NMRangeSlider._trackBackgroundImage
+_OBJC_IVAR_$_NMRangeSlider._trackImage
+_OBJC_IVAR_$_NMRangeSlider._trackCrossedOverImage
+_OBJC_IVAR_$_NMRangeSlider._lowerHandleImageNormal
+_OBJC_IVAR_$_NMRangeSlider._lowerHandleImageHighlighted
+_OBJC_IVAR_$_NMRangeSlider._upperHandleImageNormal
+_OBJC_IVAR_$_NMRangeSlider._upperHandleImageHighlighted
+_OBJC_IVAR_$_NMRangeSlider._lowerHandle
+_OBJC_IVAR_$_NMRangeSlider._upperHandle
+_OBJC_IVAR_$_NMRangeSlider._lowerTouchOffset
+_OBJC_IVAR_$_NMRangeSlider._upperTouchOffset
+_OBJC_IVAR_$_NMRangeSlider._stepValueContinuously
+_OBJC_IVAR_$_NMRangeSlider._lowerCenter
+_OBJC_IVAR_$_NMRangeSlider._upperCenter
+_OBJC_IVAR_$_NMRangeSlider._track
+_OBJC_IVAR_$_NMRangeSlider._trackBackground
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/natalia_grinevich/NMRangeSlider/NMRangeSlider/NMRangeSlider.m
+/Users/natalia_grinevich/NMRangeSlider
+/Users/natalia_grinevich/NMRangeSlider/NMRangeSlider/NMRangeSlider.h
+UIEdgeInsetsInsetRect
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+CGSizeMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+CGPointMake
+UIEdgeInsetsMake
+DeviceSystemMajorVersion
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/usr/include/dispatch/once.h
+__51-[NMRangeSlider setLowerValue:upperValue:animated:]_block_invoke.52
+__destroy_helper_block_
+__copy_helper_block_
+__51-[NMRangeSlider setLowerValue:upperValue:animated:]_block_invoke.46
+__51-[NMRangeSlider setLowerValue:upperValue:animated:]_block_invoke
+__inline_isnanf
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/usr/include/math.h
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__DeviceSystemMajorVersion_block_invoke
+/Users/natalia_grinevich/Library/Developer/Xcode/DerivedData/NMRangeSlider-fpdxqusctirrjjaopkkkggqubrdn/Build/Intermediates/NMRangeSlider.build/Release-iphoneos/RangeSlider.build/DerivedSources/RangeSlider_vers.c
