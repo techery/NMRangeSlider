@@ -119,6 +119,11 @@ NSUInteger DeviceSystemMajorVersion() {
 
 #pragma mark -
 #pragma mark - Properties
+- (void)setAccessibilityIdentifier:(NSString *)accessibilityIdentifier {
+    [super setAccessibilityIdentifier:accessibilityIdentifier];
+    self.lowerHandle.accessibilityIdentifier = [NSString stringWithFormat:@"left_%@", accessibilityIdentifier];
+    self.upperHandle.accessibilityIdentifier = [NSString stringWithFormat:@"right_%@", accessibilityIdentifier];
+}
 
 - (void) setLowerValue:(float)lowerValue
 {
@@ -540,10 +545,12 @@ NSUInteger DeviceSystemMajorVersion() {
     // Lower Handle Handle
     self.lowerHandle = [[UIImageView alloc] initWithImage:self.lowerHandleImageNormal highlightedImage:self.lowerHandleImageHighlighted];
     self.lowerHandle.frame = [self thumbRectForValue:_lowerValue image:self.lowerHandleImageNormal];
+    self.lowerHandle.accessibilityIdentifier = [NSString stringWithFormat:@"left_%@", self.accessibilityIdentifier];
     
     //------------------------------
     // Upper Handle Handle
     self.upperHandle = [[UIImageView alloc] initWithImage:self.upperHandleImageNormal highlightedImage:self.upperHandleImageHighlighted];
+    self.upperHandle.accessibilityIdentifier = [NSString stringWithFormat:@"right_%@", self.accessibilityIdentifier];
     self.upperHandle.frame = [self thumbRectForValue:_upperValue image:self.upperHandleImageNormal];
     
     //------------------------------
