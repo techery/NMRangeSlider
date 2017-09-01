@@ -78,10 +78,6 @@
 
 @property(retain, nonatomic) UIImage* trackBackgroundImage;
 
-@property (retain, nonatomic) UIImageView* lowerHandle;
-@property (retain, nonatomic) UIImageView* upperHandle;
-
-
 - (void)addSubviews;
 
 //Setting the lower/upper values with an animation :-)
